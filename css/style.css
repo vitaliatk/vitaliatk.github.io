@@ -1,0 +1,331 @@
+
+/* --- Navigation --- */
+
+div.navbar-collapse{
+	justify-content:justify;
+	
+	}
+
+nav.navigation, 
+navbar-toggleable-sm{
+	min-height:55px;
+	height:auto;
+	text-transform: uppercase;
+	font-size:15px;
+}
+div.dropdown-menu a{
+	color:lightgray;
+	font-variant: small-caps;
+	font-size:12px;
+	margin:0;
+	padding:0;
+	max-height:auto;
+}
+
+@media (min-width: 768px){
+    .navbar-nav {
+        margin: 0 auto;
+        display: table;
+        table-layout: auto;
+        float: none;
+        width: 100%;
+    }
+    .navbar-nav>li {
+        display: table-cell;
+        float: none;
+        text-align: center;
+    }
+} 
+nav.navbar{
+	width:100%;
+	position:fixed;
+	top:0;
+	background-color:gray;
+	 z-index: 99;
+}
+
+/* --- Header/jumbotron --- */ 
+	
+div.relative{
+	position:relative;
+}
+div.banner-img h1,
+div.banner-img p{
+	color:white;
+}
+
+div.banner-img,
+div.tools-img,
+div.projects-img,
+div.contact-img,
+div.footer-img{
+	width:100%;
+	height:15em;
+	text-align:center;
+	padding-top:2em;
+}
+/* --- Background images/colors --- */ 
+div.banner-img{
+	background: url("../img/about.jpg");
+	height:30em;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	 background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.tools-img{
+	background: url("../img/tools.jpg");
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	 background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.projects-img{
+	background: url("../img/projects.jpg");
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	 background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.contact-img{
+	background: url("../img/contact.jpg");
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	 background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.footer-img{
+	background: url("../img/footer.jpg");
+	height:30em;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.background-dark{
+	background-color:#181818;
+	min-height:30em;
+	height:auto;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	padding:3em 0;
+}
+
+
+
+/*---About---*/
+.dblock{
+	display:block;
+}
+/*---Tools---*/
+.tools-all img{
+	width:80px;
+	padding:1px 3px;
+	padding:18px;
+}
+.gitimg{
+	width:40px;
+	padding:5px;
+}
+/*1st category*/
+.expf{
+
+}
+
+.tool-font{
+	text-align:left;
+	font-size:16px;
+	font-weight:300;
+	font-family: serif, Arial;
+	text-transform:uppercase;
+}
+/*2nd category*/
+ .famif{
+}
+
+
+
+.tools .img{
+	color:white;
+}
+
+
+/*---Projects---*/
+
+/*Projects' headings*/
+.proheading{
+	text-align:left;
+	font-size:18px;
+	font-weight:600;
+	padding-bottom:0;
+	margin-bottom:0;
+	
+}
+.project0 .smal{
+	letter-spacing:-0.13em;
+	font-size:16px;
+}
+
+.protext{
+	font-style:italic;
+	text-align:justify;
+	padding:0;
+	margin:0;
+}
+
+.viewbutton{
+
+	padding: 5px 12px;
+	font-weight: 600;
+	background-color: lightgray;
+	border-color: lightgray;
+	border-style: solid;
+	border-radius: 5px;
+	display:inline-block;
+}
+
+.viewbutton a{
+	color:white;
+}
+
+.pronote{
+	font-style:italic;
+	font-size:0.8em;
+	text-align:left;
+	padding-top:0;
+	margin-top:0;
+}
+
+.tag{
+	font-size:0.7em;
+	text-align:center;
+	padding: auto;
+	font-weight: 600;
+	display:inline-block;
+}
+.gitlink{
+	
+}
+
+
+.tags, .viewbuttons{
+	text-align:center;
+}
+
+.link2{
+	color:black;
+	text-decoration:underline;
+}
+
+.img-fluid{
+	display:block;
+	margin:auto;
+	width:350px;
+	padding:0 3em;
+	
+}
+/*
+.container-fluid{
+	display:flex;
+	flex-wrap:wrap;
+}*/
+
+/*main headings*/
+h1{
+	text-align:center;
+	
+	color:white;
+	font-weight:300;
+	font-family: serif, Arial;
+	text-transform:uppercase;
+	
+	height:auto;
+	width:100%;
+	margin:108px 0 108px;
+}
+
+h1.about{
+	text-align:center;
+	
+	color:white;
+	font-weight:300;
+	font-family: serif, Arial;
+	text-transform:uppercase;
+	
+	height:auto;
+	width:100%;
+	margin:180px 0 108px;
+}
+
+
+@media screen and (min-width: 970px) {
+  h1 {
+     font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  h1 {
+     font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  h1 {
+     font-size: 15px;
+  }
+}
+
+form{
+text-align:center;
+	color:white;
+	font-weight:300;
+	font-family: serif, Arial;
+
+	margin:0 auto;
+}
+
+.footer p{
+font-size:12px;
+margin:25px;
+text-align:center;
+}
+
+.copyright{
+	margin:0 auto;
+	display:block;
+	text-align:center;
+	height:30px;
+}
+/*--text--*/
+h4.bio, .sm, .expf, .fami, .proheading, .protext, .pronote, .tag, .link2, .footer p, .footer a, .lorem p{
+	color:white;
+}
+div.bio{
+	text-align:center;
+	}
+ 
+ h4.bio{
+	 font-size:25px;
+	 text-transform:uppercase;
+ }
+ .sm{
+	 font-size:15px;
+	 text-transform:uppercase;
+ }
+ 
